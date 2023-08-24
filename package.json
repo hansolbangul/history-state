@@ -1,0 +1,29 @@
+{
+  "name": "@hansolbangul/history-state",
+  "version": "1.0.1",
+  "description": "React hook for manipulating browser history state.",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hansolbangul/history-state.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "history",
+    "state"
+  ],
+  "author": "hansolbangul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hansolbangul/history-state/issues"
+  },
+  "homepage": "https://github.com/hansolbangul/history-state#readme",
+  "dependencies": {
+    "@types/react": "^18.2.21",
+    "react": "^17.0.2"
+  }
+}
