@@ -4,7 +4,7 @@
     "module": "commonjs",
     "jsx": "react",
     "declaration": true,
-    "outDir": "./dist",
+    "outDir": "./build",
     "strict": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
@@ -12,6 +12,6 @@
     "forceConsistentCasingInFileNames": true,
     "lib": ["dom", "dom.iterable", "esnext"]
   },
-  "include": ["*.ts", "*.tsx"],
+  "include": ["src/*.ts", "src/*.tsx"],
   "exclude": ["node_modules"]
 }

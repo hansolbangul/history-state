@@ -58,7 +58,7 @@ type UseHistoryStateReturnType<T> = [
 ];
 // Interface for setting the initial value and key for the hook.
 
-const index = <T>({initialState,key}: StateProps<T>): UseHistoryStateReturnType<T> => {
+const useHistoryState = <T>({initialState,key}: StateProps<T>): UseHistoryStateReturnType<T> => {
     let initialData: T = initialState;
 
     if (isBrowser) {
@@ -93,4 +93,4 @@ const index = <T>({initialState,key}: StateProps<T>): UseHistoryStateReturnType<
 
     return [historyState, setState];
 };
-export default index;
+export default useHistoryState;
