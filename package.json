@@ -1,6 +1,6 @@
 {
   "name": "@hansolbangul/history-state",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "React hook for manipulating browser history state.",
   "main": "index.ts",
   "scripts": {
@@ -23,7 +23,14 @@
   },
   "homepage": "https://github.com/hansolbangul/history-state#readme",
   "dependencies": {
-    "@types/react": "^18.2.21",
     "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "ts-loader": "^9.4.4",
+    "tslib": "^2.6.2",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   }
 }
